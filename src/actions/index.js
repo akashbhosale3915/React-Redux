@@ -1,6 +1,7 @@
-export const increment = () => {
+export const increment = (incrementBy) => {
   return {
     type: "INCREMENT",
+    payload: incrementBy,
   };
 };
 export const decrement = () => {
